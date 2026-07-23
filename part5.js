@@ -1,4 +1,4 @@
-let studentInfo = {
+let studentInfo5 = {
     name: "John Cena",
     age: 122,
     enrollment: true,
@@ -13,5 +13,5 @@ let studentInfo = {
     }
 };
 
-studentInfo.add(" Necromancy");
-studentInfo.display();
+studentInfo5.add(" Necromancy");
+studentInfo5.display();
