@@ -1,0 +1,16 @@
+let studentInfo = {
+    name : "John Cena",
+    age : 122,
+    enrollment: true,
+    courses: [" Biology", " Chemistry", " English", " Calculus", " Psychology"],
+    display: function () {
+        console.log("Hello my name is " + this.name);
+        console.log("I am " + this.age + " years old");
+        console.log("I'm currently taking:" + this.courses);
+    }
+};
+
+
+console.log(studentInfo.name);
+console.log(studentInfo["enrollment"]);
+studentInfo.display();
