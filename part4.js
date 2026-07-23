@@ -1,4 +1,4 @@
-let studentInfo = {
+let studentInfo4 = {
     name: "John Cena",
     age: 122,
     enrollment: true,
@@ -10,13 +10,13 @@ let studentInfo = {
     }
 };
 
-let copy = {...studentInfo};
+let copy = {...studentInfo4};
 
 copy.graduationYear = 2046;
 
 console.log(copy.graduationYear);
 
 let addedCourses = [" History", " Sociology", " Statistic"];
-let allCourses = [...studentInfo.courses, ...addedCourses];
+let allCourses = [...studentInfo4.courses, ...addedCourses];
 
 console.log(allCourses);
