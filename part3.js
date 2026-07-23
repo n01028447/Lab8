@@ -1,4 +1,4 @@
-let studentInfo = {
+let studentInfo3 = {
     name: "John Cena",
     age: 122,
     enrollment: true,
@@ -10,7 +10,7 @@ let studentInfo = {
     }
 };
 
-let { name, courses } = studentInfo; 
+let { name, courses } = studentInfo3; 
 console.log(name);
 console.log(courses);
 
